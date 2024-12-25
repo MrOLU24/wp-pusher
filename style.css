@@ -22,6 +22,15 @@ a {
 a:hover {
   text-decoration: underline;
 }
+ul {
+  list-style: none;
+}
+ul li {
+  background-color: #1179BF;
+}
+ul li img{
+  background-color: #1179BF;
+}
 input:focus {
   outline: 0px;
 }
@@ -208,6 +217,60 @@ footer a {
 }
 .mobile-head, .mobile-main{
     display: none;
+}
+.price{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1179BF;
+}
+.price h2{
+  font-size: 4.5rem;
+  font-weight: 300;
+  background-color: #1179BF;
+  color: white;
+}
+.price h2 sup {
+  font-size: 1.5rem;
+  font-weight: 400;
+  background-color: #1179BF;
+  color: white;
+}
+.price h2 span{
+  font-size: 1.5rem;
+  font-weight: 400;
+  background-color: #1179BF;
+  color: white;
+}
+.price-price .features{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #1179BF;
+}
+.price-price .features p{
+  font-size: 1rem;
+  font-weight: 400;
+  width: 70%;
+  background-color: #1179BF;
+  color: white;
+}
+.features .list{
+  display: flex;
+  gap: 1rem;
+  background-color: #1179BF;
+  color: white;
+}
+.features .list .list-ul{
+  display: flex;
+  gap: 1rem;
+  background-color: #1179BF;
+  color: white;
+  flex-direction: column;
+}
+.features .list .list-ul li{
+  display: flex;
+  gap: 10px;
 }
 @media (max-width: 680px) {
   header,
