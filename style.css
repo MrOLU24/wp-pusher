@@ -272,6 +272,21 @@ footer a {
   display: flex;
   gap: 10px;
 }
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 70%;
+  line-height: 1.6rem;
+  margin-top: 1rem;
+}
+.switch p, b{
+  background-color: #1179BF;
+  color: white;
+}
+.switch p span{
+  text-decoration: underline;
+  background-color: #1179BF;
+}
 @media (max-width: 680px) {
   header,
   main {
