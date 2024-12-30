@@ -284,8 +284,44 @@ footer a {
   color: white;
 }
 .switch p span{
-  text-decoration: underline;
+  border-bottom: 2px solid #569dcc;
   background-color: #1179BF;
+}
+.price-price .dashline{
+  display: flex;
+  margin-top: 2.5rem;
+  border-bottom: 2px solid #569dcc;
+}
+.price-price .ftp{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 75%;
+  margin-top: 3rem;
+  color: white;
+  background-color: #1179BF;
+}
+.price-price .ftp p{
+  font-size: 1rem;
+  font-weight: 400;
+  background-color: #1179BF;
+  align-items: center;
+  line-height: 1.5rem;
+}
+.price-price .ftp p b i{
+  font-weight: 600;
+  background-color: #1179BF;
+}
+.price-price .ftp .profile{
+  display: flex;
+  gap: 1rem;
+  background-color: #1179BF;
+  align-items: center;
+}
+.price-price .ftp .profile img{
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
 }
 @media (max-width: 680px) {
   header,
